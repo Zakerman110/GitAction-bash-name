@@ -28,6 +28,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Display my name
         run: |
-          chmod +x script1.sh
-          script1.sh
+          chmod +x ./script1.sh
+          ./script1.sh
         shell: bash
